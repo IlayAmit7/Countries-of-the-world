@@ -1,0 +1,40 @@
+.search-button{
+    display: flex;
+    justify-content: left;
+}
+
+#search-countries-input{
+    margin: 0px 10px 2px 0px;
+    height: 29px;
+}
+
+#show-searched-countries-button{
+    margin: 0px 10px 2px 0px;
+}
+
+#show-searched-countries-button:hover{
+    background-color: lightblue;
+}
+
+table {
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#get-all-countries-button:hover{
+    background-color: lightblue;
+}
+
+body::after {
+    display: block;
+    content: '';
+    height: 40px;
+}
+
+#info-list{
+    margin-bottom: 2%;
+}

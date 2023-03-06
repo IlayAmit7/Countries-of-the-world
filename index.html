@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries of the world</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/images/earth.logo.png">
+    <script src="jquery-3.6.1.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+      
+    <li class="search-button">
+        <input type="text" id="search-countries-input" placeholder="Search countries" required>
+    </li>
+    <li>
+        <button id="show-searched-countries-button">Search</button>
+    </li>
+    <li>
+        <button id="get-all-countries-button">Show all</button>
+    </li>
+
+    <div class="searched-countries-div-info">
+        <ul id="info-list">
+        </ul>
+    </div>
+    <hr>
+
+
+
+    <div class="countries-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Country Name</th>
+                    <th>Number of citizens</th>
+                    <th>Countries currency</th>
+                </tr>
+            </thead>
+            <tbody id="countries-table">
+
+            </tbody>
+        </table>
+    </div>
+    <hr>
+
+    <div class="region-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Region</th>
+                    <th>Number of countries</th>
+                </tr>
+            </thead>
+            <tbody id="countries-region-table">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</body>
+
+</html>
